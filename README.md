@@ -3,7 +3,7 @@ This project develops an interactive web application for analyzing and visualizi
 
 ## Key features include: 
 - Price distribution visualization - Understand market pricing trends and anomalies
-An interactive histogram that illustrates how vehicle prices are distributed across the dataset. This feature helps buyers understand price distributionwithin specific vehicle categories, while enabling sellers to stratrgically pricetheir vehicles by comparing them to similar listings. The chart provides insights into price ranges, common price points, and protential pricing anomalies withn the used car market. It showcases how factors such as model year, color,  and technical features influence overall pricing trends and market valuation 
+An interactive histogram that illustrates how vehicle prices are distributed across the dataset. This feature helps buyers understand price distribution within specific vehicle categories, while enabling sellers to strategically price their vehicles by comparing them to similar listings. The chart provides insights into price ranges, common price points, and potential pricing anomalies within the used car market. It showcases how factors such as model year, color,  and technical features influence overall pricing trends and market valuation 
 
 - Price vs mileage analysis - Explore how odometer readings affect vehicle value
 An interactive scatter plot visualization that examines the relationship between mileage (odometer readings) and vehicle price across different vehicle types. This feature helps buyers and sellers understand how higher or lower mileage affects pricing trends within the used car market. By categorizing vehicles by type, the chart provides insights into price depreciation patterns, outliers, and potential value retention based on mileage
@@ -11,8 +11,12 @@ An interactive scatter plot visualization that examines the relationship between
 - Technical features comparison - Identify correlations between fuel type, mileage, transmission, and pricing
 An interactive scatter matrix that explores the relationships between key technical features such as fuel type, mileage (odometer readings), transmission, and cylinder count, with vehicle pricing. This visualization helps identify patterns, correlations, and potential outliers in how technical specifications influence market value. By analyzing multiple attributes simultaneously, buyers and sellers can gain deeper insights into pricing trends based on vehicle performance characteristics. 
 
+-Interactive filters and checkboxes - Toggle between visualizations for a tailored analysis experience
+The scatter matrix compares how technical features like fuel type, mileage, transmission, and cylinders relate to vehicle prices. This shows which features most strongly affect a vehicle's value and highlights any unusual price patterns based on these specifications.
+
 - Interactive filters and checkboxes - Toggle between visualizations for a tailored analysis experience
 This feature is incorporated into each visualization and allows users to toggle them on and off using checkboxes, enabling a more personalized data exploration experience. By selecting these Technical Features options, users can focus on the insights most relevant to their needs. This interactive functionality enhances usability, making it easier to analyze vehicle pricing trends and technical attributes dynamically.
+
 
 ## Technologies Used
 - Python 3.x
@@ -51,8 +55,8 @@ Start the Streamlit application:
 streamlit run app.py
 
 4. Access the application
-Once the application is running, it will automatically open in your default web browser at:
-http://localhost:8501
+Once the application is running, it will automatically open in your default web browser at the External URL:
+http://34.213.214.55:10000
 
 If it doesn't open automatically, you can manually navigate to this URL.
 
