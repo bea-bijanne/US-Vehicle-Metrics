@@ -1,5 +1,5 @@
 # US-Vehicle-Metrics
-This project develops an interactive web application for analyzing and visualizing **US vehicle data** using **Python** and **Streamlit**. The application provides **dynamic insights into vehicle pricing trends, mileage impact, and technical attributes** through interactive charts and filters.
+This project develops an interactive web application for analyzing and visualizing **US vehicle data** using **Python** and **Streamlit**. The application provides **dynamic insights into vehicle pricing trends, mileage impact, fuel type, and technical attributes** through interactive charts and filters.
 
 ## Key features include: 
 - Price distribution visualization - Understand market pricing trends and anomalies
@@ -11,11 +11,8 @@ An interactive scatter plot visualization that examines the relationship between
 - Technical features comparison - Identify correlations between fuel type, mileage, transmission, and pricing
 An interactive scatter matrix that explores the relationships between key technical features such as fuel type, mileage (odometer readings), transmission, and cylinder count, with vehicle pricing. This visualization helps identify patterns, correlations, and potential outliers in how technical specifications influence market value. By analyzing multiple attributes simultaneously, buyers and sellers can gain deeper insights into pricing trends based on vehicle performance characteristics. 
 
--Interactive filters and checkboxes - Toggle between visualizations for a tailored analysis experience
-The scatter matrix compares how technical features like fuel type, mileage, transmission, and cylinders relate to vehicle prices. This shows which features most strongly affect a vehicle's value and highlights any unusual price patterns based on these specifications.
-
 - Interactive filters and checkboxes - Toggle between visualizations for a tailored analysis experience
-This feature is incorporated into each visualization and allows users to toggle them on and off using checkboxes, enabling a more personalized data exploration experience. By selecting these Technical Features options, users can focus on the insights most relevant to their needs. This interactive functionality enhances usability, making it easier to analyze vehicle pricing trends and technical attributes dynamically.
+The scatter matrix compares how technical features like fuel type, mileage, transmission, and cylinders relate to vehicle prices. This shows which features most strongly affect a vehicle's value and highlights any unusual price patterns based on these specifications.
 
 
 ## Technologies Used
@@ -37,7 +34,7 @@ A declarative statistical visualization library utilized for generating informat
 ## Installation
 1. Clone the repository
 Begin by cloning the repository to your local machine:
-git clone https://github.com/smahery/US-Vehicle-Metrics.git
+git clone https://github.com/bea-bijanne/US-Vehicle-Metrics
 cd US-Vehicle-Metrics
 
 2. Install required packages
